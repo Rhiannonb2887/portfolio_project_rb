@@ -16,7 +16,7 @@
 <style>
 
 body {
-    background-color: blueviolet;
+    background-color: white;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -33,12 +33,18 @@ h1 {
   color: #000000;
 }
 
+h2 {
+  font-size: 64px;
+}
+
 p {
   color:#000000;
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: bold;
   font-style: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .hero {
@@ -79,6 +85,43 @@ padding: 15px 30px;
   --default-font-family: "Playfair Display", serif;
 }
 
+.btn-branding-outline {
+  background: #6c63ff;
+  color: white;
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  color: var(--branding-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+
+}
+
+.project-description {
+  padding: 120px 60px;
+
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+}
+
 
 
 </style>
@@ -88,11 +131,78 @@ padding: 15px 30px;
     <p>Hello I am</p>
     <h1>Rhiannon Bailey</h1>
     <h2 class="mb-3">I am a Graphic disigner specializing in digital design</h2>
-   </div>
-
-  <a href="#" class="btn-branding">Contact me</a>
+    <div>
+    <a href="#" class="btn-branding">Contact me</a>
     <i class="fab fa-instagram"></i>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  <script src="http://kit.fontawesome.com/ddc3ee268a.js" crossorgin="anonymous"></script>
+  <script src="http://kit.fontawesome.com/ddc3ee268a.js" crossorgin="anonymous"></script> 
+  
+  </div>
+</div>
+  
+<div class="container">
+  <div class="row mb-5">
+  </div>
+  <div class="col d-none d-lg-block">
+    <div class="project-description">
+    <img src="Portfolio website/Images/weather.png" class="img-fluid" alt="yogurt project" width="4.139">
+   </div>
+    
+
+   <h2 class="mb-5">Yogurt Project</h2>
+   <p class="mb-4 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+  </p>
+
+  <a href="" class="btn-branding-outline">Learn more</a>
+  </div>
+
+</div>
+
+
+<div class="container">
+<div class="row mb-5">
+</div>
+<div class="col d-none d-lg-block">
+ 
+ 
+
+ <h2 class="mb-5">Weather Project</h2>
+ <p class="mb-4 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+</p>
+
+<a href="" class="btn-branding-outline">Learn more</a>
+</div>
+
+<div class="project-description">
+  <img src="Portfolio website/Images/weather.png" class="img-fluid" alt="Weather project" width="8.701">
+ </div>
+
+</div>
+</div>
+
+
+
+<div class="container">
+
+<div class="row mb-5">
+</div>
+<div class="col d-none d-lg-block">
+  <div class="project-description">
+  <img src="Portfolio website/Images/dictionary.png" class="img-fluid" alt="dictionary project" width="6">
+ </div>
+  
+
+ <h2 class="mb-5">Dictionary Project</h2>
+ <p class="mb-4 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+</p>
+
+<a href="" class="btn-branding-outline">Learn more</a>
+</div>
+
+</div>
+</div>
+
+
+ 
 </body>
 </html>
