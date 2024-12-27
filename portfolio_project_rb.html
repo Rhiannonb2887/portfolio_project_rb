@@ -112,7 +112,20 @@ padding: 15px 30px;
     font-size: 44px;
   }
 
-  .content h1 {
+  
+
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+}
+
+.content h1 {
     font-size: 64px;
     line-height: 80px;
 
@@ -146,22 +159,72 @@ padding: 15px 30px;
     margin: 30px;
   }
 
-
-  .hero {
-    padding: 80px 20px;
+  .logo {
+    max-height: 40px;
   }
 
-  .project-description {
+  nav {
+    padding: 20px;
+  }
+
+  nav ul {
     padding: 0;
-    text-align: center;
+    margin: 0;
   }
-}
+
+  nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 15px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color:#272142;
+    transition: all 100ms ease-in-out;
+    font-size: 12px;
+  }
+
+
+  nav a:hover, 
+  nav li.active a {
+    color: var(--branding-color);
+  }
+
 
 
 
 </style>
 
 <body>
+
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+    <img src="images/logo.png" class="logo d-none d-md-block" alt="SheCodes Logo">
+    <img src="images/logo-small.jpg" class="logo d-block d-md-none" alt="SheCodes Logo">
+    <ul>
+      <li class="active">
+        <a href="/">
+        Home</a>
+      </li>
+      <li>
+        <a href="/about.html">
+        About</a>
+      </li>
+      <li>
+        <a href="/work.html">
+        Work</a>
+      </li>
+      <li>
+        <a href="/contact.html">
+        Contact
+      </a>
+      </li>
+    </ul>
+  
+  </nav>
+</div>
   <div class="hero">
     <p>Hi, I am</p>
     <h1>Rhiannon Bailey</h1>
